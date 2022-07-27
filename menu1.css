@@ -1,0 +1,57 @@
+﻿body 
+{
+background-image:url("https://wallpaperaccess.com/full/3363816.jpg");
+	background-repeat:no-repeat;
+	
+	
+	margin: 0;
+padding: 0;
+font-family: 'Poppins', sans-serif;
+background-position: center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+background-size: cover;
+}
+.menu ul{
+	
+	margin:0px;
+	padding:0px;
+	list-style:none;
+}
+.menu ul li
+{
+	float:right;
+	width:184px;
+	height:40px;
+	background-color:black;
+	opacity:.40;
+	line-height:40px;
+	text-align:center;
+	font-size:medium;
+	margin-right:2px;
+	
+}
+.menu ul li a
+{
+	text-decoration:none;
+	color:white;
+}
+.menu ul li a:hover
+{
+	
+	display:block;
+	color:black;
+  font-size: 1.2em;
+ background-color:white;
+}
+.menu ul li ul li
+{
+	display:none;
+}
+.menu ul li:hover ul li
+{
+	display:block;
+	cursor :pointer;
+	color:white;
+	background-color:black;
+}
